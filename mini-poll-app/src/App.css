@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Segoe UI', sans-serif;
-  background: #0f172a; /* dark slate background */
+  background: #0f172a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,9 +10,9 @@ body {
   color: #f8fafc;
 }
 
-/* Poll container (the card) */
+
 .poll-container {
-  background: #1e293b; /* slate card */
+  background: #1e293b; 
   padding: 2.5rem 2rem;
   max-width: 480px;
   width: 100%;
@@ -23,7 +23,7 @@ body {
   gap: 1.5rem;
 }
 
-/* Poll question */
+
 .poll-question {
   font-size: 1.6rem;
   font-weight: 600;
@@ -32,19 +32,19 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Poll options list */
+
 .options-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* Individual option container */
+
 .poll-option {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #334155; /* darker card */
+  background: #334155; 
   border: 1px solid #475569;
   border-radius: 10px;
   padding: 0.75rem 1rem;
@@ -55,7 +55,7 @@ body {
   background: #475569;
 }
 
-/* Vote button */
+
 .vote-button {
   background-color: #3b82f6;
   color: #fff;
@@ -72,7 +72,7 @@ body {
   background-color: #2563eb;
 }
 
-/* Vote count */
+
 .vote-count {
   font-size: 0.875rem;
   color: #cbd5e1;
@@ -80,7 +80,7 @@ body {
   white-space: nowrap;
 }
 
-/* Add option form (if reused later) */
+
 .add-option {
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ body {
   background-color: #059669;
 }
 
-/* Leader display section */
+
 .leader-display {
   margin-top: 1.5rem;
   padding-top: 1rem;
